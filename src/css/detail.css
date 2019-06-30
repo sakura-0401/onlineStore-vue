@@ -1,0 +1,38 @@
+.detail {
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 5px 20px 5px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+.detail img {
+    padding-right: 10px;
+    border-right: 5px dashed #ED705B;
+}
+
+.detail .price {
+    color: #ED705B;
+    display: inline;
+    font-size: 40px;
+}
+
+.detail .price-useless {
+    color: #b9bbbe;
+    display: inline;
+    text-decoration: line-through;
+}
+.detail .msg{
+    /*border-left: 5px dashed #ED705B;*/
+}
+.detail .btns{
+    padding-right: 0;
+}
+
+.detail .title {
+    font-weight: 300;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #b9bbbe;
+}
+
+

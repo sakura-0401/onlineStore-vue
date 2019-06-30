@@ -1,0 +1,93 @@
+.form{
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.15);
+    padding: 50px 40px 80px 40px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.form .title{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    height: 35px;
+}
+
+.label-{
+    color:#969696 ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.divider{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a{
+    outline: none;
+}
+.logo{
+    margin-bottom: 20px;
+}
+
+.logo-text{
+    color: #AAAAAA;
+    font-weight: 300;
+}
+.label-:hover{
+    color: #969696;
+    border-bottom: 3px solid #ED705B;
+}
+.label-active{
+    color: #ED705B ;
+    border-bottom: 3px solid #ED705B;
+}
+.label-active:hover{
+    color: #ED705B;
+}
+
+
+
+.sign-in{
+    border-radius: 0;
+    padding:5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    margin-top: 20px;
+}
+.btn-true{
+    background-color: #ED705B;
+    color: #ffffff;
+}
+.btn-true:hover{
+    color: #ffffff;
+}
+.btn-true:focus{
+    color: #ffffff;
+}
+
+
+
+input.ng-invalid.ng-dirty {
+    border-color: #ED705B;
+}
+
+.alert{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    border-radius: 0;
+}
+
+canvas {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
